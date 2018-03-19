@@ -1,0 +1,19 @@
+hog features: 6804
+input size: 80*40
+positive hog features extracting time: 3.13s / 708 samples
+negative hog features extracting time: 5.17s / 1180 samples
+L-SVM training time: 1.65s
+total test time: 0.71s / 216 (118 pos, 108 neg)
+pos test acc: 97.46
+neg test acc: 100.00%
+total test acc: 98.61%
+raw test: 4.35s
+nms: 2.26ms
+
+config of hog
+min_wdw_sz: [80, 40]
+max_wdw_sz: [128, 64]
+step_size: [10, 10]
+orientations: 9
+pixels_per_cell: [5, 5]
+cells_per_block: [3, 3]
