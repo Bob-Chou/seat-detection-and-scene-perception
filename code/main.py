@@ -1,16 +1,6 @@
 #!/usr/bin/python
 import os
 
-# Link to the UIUC Car Database
-# http://l2r.cs.uiuc.edu/~cogcomp/Data/Car/CarData.tar.gz
-# dataset_url = " "
-# dataset_path = "../data/dataset/CarData.tar.gz"
-
-# Fetch and extract the dataset
-# if not os.path.exists(dataset_path):
-#     os.system("wget {} -O {}".format(dataset_url, dataset_path))
-#     os.system("tar -xvzf {} -C {}".format(dataset_path, os.path.split(dataset_path)[0]))
-
 # # Extract the features
 # pos_path = "../data/train/pos"
 # neg_path = "../data/train/neg"
